@@ -1,7 +1,7 @@
 const gameList = document.querySelector("#game-list");
 const searchInput = document.querySelector("#search");
 const searchButton = document.querySelector("#search-button");
-const apiUrl = "https://www.freetogame.com/api/games";
+const apiUrl = ("https://www.freetogame.com/api/games");
 
 searchButton.addEventListener("click", () => {
     const searchTerm = searchInput.value.trim();
