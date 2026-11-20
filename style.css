@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+input, button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+#game-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+#game-list .game-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    text-align: center;
+}
+
+#game-list .game-card img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+#game-list .game-card h3 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+}
+
+#game-list .game-card p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+#game-list .game-card a {
+    color: #333;
+    text-decoration: none;
+}
+
+#game-list .game-card a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
