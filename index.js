@@ -32,7 +32,7 @@ function renderGames(games) {
 
         const genre = document.createElement("p");
         genre.textContent = "Genre: " + game.genre;
-
+/*AI Start */
         const link = document.createElement("a");
         link.href = game.game_url;
         link.target = "_blank";
@@ -43,6 +43,7 @@ function renderGames(games) {
         gameList.appendChild(card);
     });
 }
+/*AI End */
 
 searchForm.addEventListener("submit", event => {
     event.preventDefault();
@@ -62,7 +63,7 @@ randomButton.addEventListener("click", () => {
         return;
     }
 
-    const randomIndex = Math.floor(Math.random() * allGames.length);
+    const randomIndex = Math.floor(Math.random() * allGames.length); /*AI Help */
     const randomGame = allGames[randomIndex];
 
     renderGames([randomGame]);

@@ -91,6 +91,7 @@ footer {
     text-align: center;
 }
 
+/*AI Start */
 @media (max-width: 600px) {
     main {
         padding: 1rem;
@@ -105,3 +106,4 @@ footer {
         margin: 0.25rem;
     }
 }
+/*AI End */
